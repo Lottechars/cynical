@@ -1,0 +1,14 @@
+{
+  "name": "cynical",
+  "version": "1.0.0",
+  "description": "The sky is a love without end.",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Lottechar",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.2.3"
+  }
+}
