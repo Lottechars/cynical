@@ -1,0 +1,16 @@
+:root {
+    --nadir: rgba(99, 9, 9, 0.562);
+    --relento: rgba(4, 3, 65, 0.705);
+    --pure: rgba(244, 244, 244, 0.912)
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        180deg, 
+        rgba(99, 9, 9, 0.562),
+        rgba(7, 6, 43, 0.705)
+    );
+    color: var(--pure);
+}
