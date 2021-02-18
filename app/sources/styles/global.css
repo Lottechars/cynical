@@ -1,8 +1,18 @@
 :root {
     --nadir: rgba(99, 9, 9, 0.562);
     --relento: rgba(4, 3, 65, 0.705);
-    --pure: rgba(244, 244, 244, 0.912)
+    --pure: rgba(244, 244, 244, 0.912);
+    --obscure: rgb(27, 25, 25);
 }
+
+@font-face {
+    font-family: 'SC';
+    src: url('./../../assets/fonts/SecretCode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 html, body {
     width: 100%;
@@ -13,4 +23,5 @@ html, body {
         rgba(7, 6, 43, 0.705)
     );
     color: var(--pure);
+    font-family: 'SC';
 }
