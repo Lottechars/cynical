@@ -3,16 +3,24 @@
     --relento: rgba(4, 3, 65, 0.705);
     --pure: rgba(244, 244, 244, 0.912);
     --obscure: rgb(27, 25, 25);
+    --transparent: rgba(0, 0, 0, 0);
 }
 
 @font-face {
-    font-family: 'SC';
+    font-family: 'Secret Code';
     src: url('./../../assets/fonts/SecretCode.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Bebas';
+    src: url('./../../assets/fonts/Bebas-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 html, body {
     width: 100%;
@@ -23,5 +31,5 @@ html, body {
         rgba(7, 6, 43, 0.705)
     );
     color: var(--pure);
-    font-family: 'SC';
 }
+
